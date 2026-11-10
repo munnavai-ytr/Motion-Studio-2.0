@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-10T08:58:53.702Z",
+  "modules": [
+    {
+      "id": "render-core",
+      "name": "Render Core (WebCodecs & MP4 Muxer)",
+      "nameBn": "রেন্ডার কোর (হার্ডওয়্যার এনকোডার)",
+      "version": "1.0.0",
+      "purpose": "Hardware-accelerated H.264 video encoding & MP4 container muxing",
+      "purposeBn": "হার্ডওয়্যার অ্যাক্সিলারেটেড H.264 ভিডিও এনকোডিং ও MP4 তৈরি",
+      "requiredFor": "video",
+      "files": [
+        {
+          "path": "modules/render-core.bundle.js",
+          "sizeBytes": 74398,
+          "sha256": "206b654c03f0b8ad90f54a15395c0996177ecfc87845a6692a70ab4ab2e5e357"
+        }
+      ],
+      "sourceUrl": "/"
+    },
+    {
+      "id": "scene-engine",
+      "name": "Scene Engine (Deterministic 2D)",
+      "nameBn": "সিন ইঞ্জিন (অ্যানিমেশন রেন্ডারার)",
+      "version": "1.0.0",
+      "purpose": "Deterministic 2D animation renderer, keyframe interpolator & schema validator",
+      "purposeBn": "নিখুঁত 2D অ্যানিমেশন রেন্ডারার ও কিফ্রেম ইঞ্জিন",
+      "requiredFor": "both",
+      "files": [
+        {
+          "path": "modules/scene-engine.bundle.js",
+          "sizeBytes": 5200,
+          "sha256": "6fb7c51d405c731fc4fc205902e5b45df1798f2f5a71d957d784b318c960707c"
+        }
+      ],
+      "sourceUrl": "/"
+    },
+    {
+      "id": "fonts",
+      "name": "Studio Typography (Bengali & English)",
+      "nameBn": "স্টুডিও টাইপোগ্রাফি (বাংলা ও ইংরেজি ফন্ট)",
+      "version": "1.0.0",
+      "purpose": "Offline web font package with Hind Siliguri and Geist fonts",
+      "purposeBn": "হিন্দ শিলিগুড়ি ও গাইস্ট অফলাইন ফন্ট প্যাকেজ",
+      "requiredFor": "both",
+      "files": [
+        {
+          "path": "modules/fonts.bundle.js",
+          "sizeBytes": 1114,
+          "sha256": "2c0db788ce31b0b6f9a91827e581e3be174dc91e7997e9e9c2b7e76b26f58b7c"
+        }
+      ],
+      "sourceUrl": "/"
+    }
+  ]
+}

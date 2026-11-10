@@ -1,0 +1,6 @@
+{
+  "name": "Motion Studio",
+  "description": "A client-side, chat-first AI app with BYOK Gemini key management, rotation, encrypted local storage, and full English and Bengali support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
